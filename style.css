@@ -87,6 +87,30 @@ button:hover {
   transform: translateY(0px);
 }
 
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input:hover {
+  background: #cffff9;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  margin-left: 3px;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(190, 255, 86);
+}
+
 @media (min-width: 720px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
