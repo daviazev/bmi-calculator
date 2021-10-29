@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Calculator_icon.svg/1200px-Calculator_icon.svg.png"
+    />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Welcome to the Body Mass Index Calculator <br />
+        It's very simple to use.<br />
+        Just fill in the fields and we'll calculate for you!
+      </h1>
+      <div id="contentFather">
+        <div id="content">
+          <h2>BMI Calculator</h2>
+          <input
+            id="height"
+            class="infos"
+            type="number"
+            placeholder="Altura (cm)"
+          />
+          <input
+            id="weight"
+            class="infos"
+            type="number"
+            placeholder="Massa Corporal (Kg)"
+          />
+          <button
+            type="submit"
+            class="infos"
+            id="calculate"
+            onclick="calculate();"
+          >
+            Calculate
+          </button>
+        </div>
+      </div>
+      <div id="resultsFather">
+        <section id="results"></section>
+      </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
